@@ -31,6 +31,7 @@ end
 # tools for development
 group :development do
   gem 'haml-rails'
+  gem 'quiet_assets'
 end
 
 #tools for testing

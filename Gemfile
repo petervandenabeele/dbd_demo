@@ -22,6 +22,10 @@ gem 'jbuilder', '~> 1.0.1'
 #gem 'dbd_onto_engine', '>= 0.0.4', path: '../dbd_onto_engine'
 gem 'dbd_onto_engine', '>= 0.0.4'
 
+# Depend on dbd_data_engine for entering data
+#gem 'dbd_data_engine', '>= 0.0.1', path: '../dbd_data_engine'
+gem 'dbd_data_engine', '>= 0.0.1'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

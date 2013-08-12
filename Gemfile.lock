@@ -47,6 +47,9 @@ GEM
       neography
       rdf
       ruby_peter_v (>= 0.0.11)
+    dbd_data_engine (0.0.1)
+      haml
+      rails (>= 4.0.0)
     dbd_onto (0.0.2)
       dbd (>= 0.0.14)
       rdf (~> 1.0.6)
@@ -195,6 +198,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coffee-rails (>= 4.0.0)
+  dbd_data_engine (>= 0.0.1)
   dbd_onto_engine (>= 0.0.4)
   guard-rspec
   haml

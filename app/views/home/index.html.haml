@@ -5,4 +5,8 @@
   = root_path
 %p
   DdbOntoEngine ontologies_path =
-  = dbd_onto_engine.ontologies_path
+  = link_to(dbd_onto_engine.ontologies_path, dbd_onto_engine.ontologies_path)
+%p
+  DdbDataEngine data_path =
+  = link_to(dbd_data_engine.data_path, dbd_data_engine.data_path)
+

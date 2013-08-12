@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe "Ontologies" do
   describe "GET /ontologies" do
-
     context "check routing here" do
       it "finds the dbd_onto_engine.ontologies_path here" do
         dbd_onto_engine.ontologies_path.should == '/ontologies'

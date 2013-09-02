@@ -18,13 +18,17 @@ gem 'coffee-rails', '>= 4.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
 
+# Depend on dbd
+# gem 'dbd', '>= 0.0.18', path: '../dbd'
+gem 'dbd', '>= 0.0.18'
+
 # Depend on dbd_onto_engine for showing the ontologies
-#gem 'dbd_onto_engine', '>= 0.0.4', path: '../dbd_onto_engine'
-gem 'dbd_onto_engine', '>= 0.0.4'
+#gem 'dbd_onto_engine', '>= 0.0.5', path: '../dbd_onto_engine'
+gem 'dbd_onto_engine', '>= 0.0.5'
 
 # Depend on dbd_data_engine for entering data
-#gem 'dbd_data_engine', '>= 0.0.4', path: '../dbd_data_engine'
-gem 'dbd_data_engine', '>= 0.0.4'
+#gem 'dbd_data_engine', '>= 0.0.5', path: '../dbd_data_engine'
+gem 'dbd_data_engine', '>= 0.0.5'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

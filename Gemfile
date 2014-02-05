@@ -19,16 +19,16 @@ gem 'coffee-rails', '>= 4.0.0'
 gem 'jbuilder', '~> 1.0.1'
 
 # Depend on dbd
-# gem 'dbd', '>= 0.1.0', path: '../dbd'
-gem 'dbd', '>= 0.1.0'
+# gem 'dbd', '>= 0.1.3', path: '../dbd'
+gem 'dbd', '>= 0.1.3'
 
 # Depend on dbd_onto_engine for showing the ontologies
 # gem 'dbd_onto_engine', '>= 0.0.7', path: '../dbd_onto_engine'
 gem 'dbd_onto_engine', '>= 0.0.7'
 
 # Depend on dbd_data_engine for entering data
-# gem 'dbd_data_engine', '>= 0.0.6', path: '../dbd_data_engine'
-gem 'dbd_data_engine', '>= 0.0.6'
+# gem 'dbd_data_engine', '>= 0.0.8', path: '../dbd_data_engine'
+gem 'dbd_data_engine', '>= 0.0.8'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

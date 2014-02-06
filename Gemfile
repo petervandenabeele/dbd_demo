@@ -27,13 +27,8 @@ gem 'dbd', '>= 0.1.3'
 gem 'dbd_onto_engine', '>= 0.0.7'
 
 # Depend on dbd_data_engine for entering data
-# gem 'dbd_data_engine', '>= 0.0.8', path: '../dbd_data_engine'
-gem 'dbd_data_engine', '>= 0.0.8'
-
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
-end
+# gem 'dbd_data_engine', '>= 0.0.9', path: '../dbd_data_engine'
+gem 'dbd_data_engine', '>= 0.0.9'
 
 # tools for development and testing
 group :development, :test do

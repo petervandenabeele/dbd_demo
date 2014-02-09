@@ -48,21 +48,21 @@ GEM
       neography (>= 1.2.2)
       rdf
       ruby_peter_v (>= 0.0.13)
-    dbd_data_engine (0.0.9)
+    dbd_data_engine (0.0.10)
       dbd (~> 0.1.3)
-      dbd_onto (~> 0.0.12)
+      dbd_onto (~> 0.0.13)
       haml
       rails (>= 4.0.2)
-    dbd_onto (0.0.12)
-      dbd (~> 0.1.0)
+    dbd_onto (0.0.13)
+      dbd (~> 0.1.3)
       equivalent-xml
-      rdf (>= 1.0.9)
+      rdf (>= 1.1)
       rdf-rdfa (>= 1.0.2)
       ruby_peter_v (>= 0.0.13)
-    dbd_onto_engine (0.0.7)
-      dbd_onto (>= 0.0.12)
+    dbd_onto_engine (0.0.8)
+      dbd_onto (~> 0.0.13)
       haml
-      rails (>= 4.0.0)
+      rails (>= 4.0.2)
     diff-lcs (1.2.5)
     equivalent-xml (0.4.0)
       nokogiri (>= 1.4.3)
@@ -76,7 +76,7 @@ GEM
       lumberjack (~> 1.0)
       pry (>= 0.9.12)
       thor (>= 0.18.1)
-    guard-rspec (4.2.5)
+    guard-rspec (4.2.6)
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
     haml (4.0.5)
@@ -93,7 +93,7 @@ GEM
     jbuilder (1.0.2)
       activesupport (>= 3.0.0)
     json (1.8.1)
-    listen (2.4.0)
+    listen (2.4.1)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -207,8 +207,8 @@ DEPENDENCIES
   capybara
   coffee-rails (>= 4.0.0)
   dbd (>= 0.1.3)
-  dbd_data_engine (>= 0.0.9)
-  dbd_onto_engine (>= 0.0.7)
+  dbd_data_engine (>= 0.0.10)
+  dbd_onto_engine (>= 0.0.8)
   guard-rspec
   haml
   haml-rails

@@ -23,12 +23,12 @@ gem 'jbuilder', '~> 1.0.1'
 gem 'dbd', '>= 0.1.3'
 
 # Depend on dbd_onto_engine for showing the ontologies
-# gem 'dbd_onto_engine', '>= 0.0.7', path: '../dbd_onto_engine'
-gem 'dbd_onto_engine', '>= 0.0.7'
+#gem 'dbd_onto_engine', '>= 0.0.8', path: '../dbd_onto_engine'
+gem 'dbd_onto_engine', '>= 0.0.8'
 
 # Depend on dbd_data_engine for entering data
-# gem 'dbd_data_engine', '>= 0.0.9', path: '../dbd_data_engine'
-gem 'dbd_data_engine', '>= 0.0.9'
+#gem 'dbd_data_engine', '>= 0.0.10', path: '../dbd_data_engine'
+gem 'dbd_data_engine', '>= 0.0.10'
 
 # tools for development and testing
 group :development, :test do

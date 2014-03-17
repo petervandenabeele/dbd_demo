@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '>= 4.0.1'
+gem 'rails', '>= 4.0.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 4.0.0'
@@ -23,8 +23,8 @@ gem 'jbuilder', '~> 1.0.1'
 gem 'dbd', '>= 0.1.3'
 
 # Depend on dbd_onto_engine for showing the ontologies
-#gem 'dbd_onto_engine', '>= 0.0.8', path: '../dbd_onto_engine'
-gem 'dbd_onto_engine', '>= 0.0.8'
+#gem 'dbd_onto_engine', '>= 0.0.9', path: '../dbd_onto_engine'
+gem 'dbd_onto_engine', '>= 0.0.9'
 
 # Depend on dbd_data_engine for entering data
 #gem 'dbd_data_engine', '>= 0.0.10', path: '../dbd_data_engine'

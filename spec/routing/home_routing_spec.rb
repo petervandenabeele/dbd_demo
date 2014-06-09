@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe HomeController, type: :routing do
+describe HomeController do
   describe "routing" do
     it "root routes to #index" do
-      get("/").should route_to("home#index")
+      expect(get("/")).to route_to("home#index")
     end
   end
 end

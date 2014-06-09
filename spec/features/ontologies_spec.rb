@@ -1,30 +1,26 @@
 require 'spec_helper'
 
-describe "Ontologies", type: :request do
+describe "Ontologies" do
   describe "path /ontologies" do
     context "check routing here" do
       it "finds the dbd_onto_engine.ontologies_path here" do
-        dbd_onto_engine.ontologies_path.should == '/ontologies'
+        expect(dbd_onto_engine.ontologies_path).to eq '/ontologies'
       end
     end
-  end
-end
 
-describe "Ontologies", type: :feature do
-  describe "path /ontologies" do
     context "page content" do
       it "shows the ontologies" do
-        visit '/ontologies'
+        visit dbd_onto_engine.ontologies_path
         expect(page).to have_text('Ontologies')
       end
 
       it "shows the Meta ontology" do
-        visit '/ontologies'
+        visit dbd_onto_engine.ontologies_path
         expect(page).to have_text('Meta')
       end
 
       it "shows the Context ontology" do
-        visit '/ontologies'
+        visit dbd_onto_engine.ontologies_path
         expect(page).to have_text('Context')
       end
     end

@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe "home/index", type: :view do
+describe "home/index" do
   it "talks about a dbd demo, ontologies and data" do
     render
-    rendered.should match(/dbd/i)
-    rendered.should match(/demo/i)
-    rendered.should match(/ontolog/i)
-    rendered.should match(/data/i)
+    expect(rendered).to match(/dbd/i)
+    expect(rendered).to match(/demo/i)
+    expect(rendered).to match(/ontolog/i)
+    expect(rendered).to match(/data/i)
   end
 end

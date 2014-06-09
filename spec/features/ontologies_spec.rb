@@ -4,7 +4,6 @@ describe "Ontologies" do
   describe "path /ontologies" do
     context "check routing here" do
       it "finds the dbd_onto_engine.ontologies_path here" do
-        pending 'snap-ci'
         expect(dbd_onto_engine.ontologies_path).to eq '/ontologies'
       end
     end

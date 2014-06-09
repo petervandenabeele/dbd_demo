@@ -47,5 +47,5 @@ group :test do
   gem 'capybara'
 
   # on Mac OS X
-  gem 'terminal-notifier-guard' if RUBY_PLATFORM.include?("x86_64-darwin")
+  gem 'terminal-notifier-guard'
 end
